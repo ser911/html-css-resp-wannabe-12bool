@@ -1,6 +1,7 @@
 .container{
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
+  padding: 30px 0;
 
 }
 [ class *="col-"]{
@@ -14,17 +15,17 @@
   padding-right: 20px;
 }
 
-.col-12 h1{
+.col-lg-12 h1{
   margin: 0;
   padding-top: 20px;
   padding-bottom: 35px;
 }
-.col-6 > img{
+.col-lg-6 > img{
 height: 150px;
 padding-bottom: 20px;
 }
 
-.col-6 {
+.col-lg-6 {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -33,6 +34,7 @@ padding-bottom: 20px;
 .large-container{
   background-color: #f9f9f9;
   width: 100%;
+  margin-top: 100px;
 
 }
 
@@ -42,7 +44,7 @@ padding-bottom: 20px;
   display: block;
 }
 
-.col-4 > img{
+.col-lg-4 > img{
 height: 150px;
 margin-bottom: 20px;
 padding: 20px;
@@ -52,7 +54,7 @@ padding: 20px;
   min-height: 500px;
   margin-top: 100px;
 }
-.col-4 > .big {
+.col-lg-4 > .big {
   height: 250px;
   background-color: #428bca;
   border-radius: 50%;
